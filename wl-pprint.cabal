@@ -11,7 +11,7 @@ License:             BSD3
 License-file:        LICENSE
 Author:              Daan Leijen
 Maintainer:          otakar.smrz cmu.edu
-Build-Depends:       base < 4.8
+Build-Depends:       base < 4.9
 Build-Type:          Simple
 Exposed-Modules:     Text.PrettyPrint.Leijen
 Extensions:          OverlappingInstances

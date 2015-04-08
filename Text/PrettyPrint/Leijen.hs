@@ -80,7 +80,7 @@ module Text.PrettyPrint.Leijen (
    align, hang, indent, encloseSep, list, tupled, semiBraces,
 
    -- * Operators
-   (<+>), (<$>), (</>), (<$$>), (<//>),
+   (<+>), (Text.PrettyPrint.Leijen.<$>), (</>), (<$$>), (<//>),
 
    -- * List combinators
    hsep, vsep, fillSep, sep, hcat, vcat, fillCat, cat, punctuate,
@@ -269,7 +269,7 @@ hsep            = fold (<+>)
 --      out
 -- @
 vsep :: [Doc] -> Doc
-vsep            = fold (<$>)
+vsep            = fold (Text.PrettyPrint.Leijen.<$>)
 
 -- | The document @(cat xs)@ concatenates all documents @xs@ either
 -- horizontally with @(\<\>)@, if it fits the page, or vertically with
