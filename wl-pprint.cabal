@@ -1,5 +1,5 @@
 Name:                wl-pprint
-Version:             1.1
+Version:             1.1.0.1
 x-revision: 1
 Synopsis:            The Wadler/Leijen Pretty Printer
 Category:            Text
